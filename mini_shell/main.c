@@ -3,6 +3,11 @@
 #include <string.h>
 #include "input.h"
 
+typedef struct{
+    char *argv[MAX_ARGS];
+    int argc;
+} InputToken;
+
 int start(char *arr, int capacity){
     while (1){
         printf("MyShell>");
@@ -25,6 +30,7 @@ int start(char *arr, int capacity){
     }
     return 0;
 }
+
 
 int main(){
     int capacity = 256;
