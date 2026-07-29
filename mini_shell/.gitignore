@@ -1,0 +1,21 @@
+# 실행 파일
+myshell
+main
+*.out
+a.out
+
+# 오브젝트 / 라이브러리
+*.o
+*.a
+*.so
+*.dylib
+
+# 디버그 심볼 (macOS)
+*.dSYM/
+
+# macOS
+.DS_Store
+
+# 에디터
+.vscode/
+.idea/
